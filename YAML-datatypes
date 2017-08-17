@@ -1,0 +1,23 @@
+Integer Type:
+-
+ canonical: 1234
+ decimal: +1234
+ hexadecimal: 0x4E
+ Octal: 077
+Floating Type:
+-
+ canonical: 123.25e+3
+ exponential: 123.25e+03
+ fixed: 123.25
+ not a number: .NaN
+Miscellaneous:
+-
+ null: 
+ boolean: [true, false]
+ string: [ str, "str", 'str']
+Timestamps:
+-
+ canonical: 2017-08-17T03:34:33.1Z
+ iso8601: 2001-12-14t21:59:43.10-05:00
+ spaced: 2001-12-14 21:59:43.10 -5
+ date: 2002-12-14
